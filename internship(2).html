@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive side bar</title>
+  
+
+
+
+
+<body>
+
+
+
+
+    <style>
+        body {
+            min-height: 100vh;
+            background: hsl(177, 90%, 28%);
+        }
+
+        .title-top {
+            font-size: 40px;
+        }
+
+        .navigation {
+            top: 0px;
+            left: 0px;
+            position: fixed;
+            width: 300px;
+            height: 100%;
+            background: hsl(180, 100%, 50%);
+            transition: 0.5s;
+            overflow: hidden;
+        }
+
+        .navigation ul {
+            position: absolute;
+            top: 20;
+            left: 0;
+            width: 100%;
+
+        }
+
+        .navigation ul li {
+            position: relative;
+            width: 100%;
+            list-style: none;
+
+        }
+
+        .navigation ul li a {
+            position: relative;
+            display: block;
+            width: 100%;
+            display: flex;
+            text-decoration: none;
+            color: black;
+            font-size: 25px;
+
+
+
+        }
+
+        .navigation ul li a .icon {
+            position: relative;
+            display: block;
+            min-width: 5px;
+            height: 60px;
+            line-height: 60px;
+            text-align: center;
+
+        }
+
+        .heading {
+            text-align: center;
+            position: relative;
+            border: black;
+            border-radius: 10px;
+            background: hsl(180, 100%, 50%);
+            margin: 20px;
+            border-width: 50px;
+            font-size: 45px;
+            border-left: 50px;
+            margin-left: 350px;
+            margin-top: 50px;
+            padding: 20px
+        }
+
+        .New-heading {
+
+            height: 50px;
+            line-height: 70px;
+
+
+
+
+        }
+
+        .New-heading ul {
+            float: right;
+            margin: 10px 50px 10px 50px;
+
+
+
+        }
+
+        .New-heading li {
+
+            display: inline-block;
+            margin: 0px 0px;
+            line-height: 80px;
+            padding: 110px;
+
+
+
+        }
+
+        .New-heading a {
+            color: black;
+            font-size: 30px;
+            text-decoration: none;
+            line-height: 40px;
+            border: 1px solid hsl(180, 100%, 50%);
+            background-color: hsl(180, 100%, 50%);
+            padding: 10px 30px 10px 30px;
+            border-radius: 10px;
+            border-left: 20px;
+
+
+        }
+
+        .input1 {
+            display: inline-block;
+            border: black;
+            float: right;
+            border-radius: 10px;
+            padding: 10px 500px;
+            /* width: 100px;*/
+            margin-left: 100px;
+            margin-right: 200px;
+
+        }
+    </style>
+    <div class="navigation">
+        <span class="icon-top"></span>
+        <span class="title-top">Navigation</span>
+        <ul>
+
+            <li>
+                <a href="internship(3).html">
+                    <span class="icon"><i class="bi bi-house-fill"></i></span>
+                    <span class="title">Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="internship(3).html">
+                    <span class="icon"></span>
+                    <span class="title">Get Started</span>
+                </a>
+            </li>
+            <li>
+                <a href="internship(3).html">
+                    <span class="icon"></span>
+                    <span class="title">Select Strategy</span>
+                </a>
+            </li>
+            <li>
+                <a href="internship(3).html">
+                    <span class="icon"></span>
+                    <span class="title">Your Strategy</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="heading">
+        <center>
+            <p>Your Company Strategy</p>
+        </center>
+    </div>
+    <div class="New-heading">
+        <ul>
+            <li>
+                <a href="#">
+                    <span class="title">Growth</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="title-new">Startup</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="title-new">Operational</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="title-new">Financial</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="input1">
+        <input type="text" name="my name" placeholder="Green"> <input type="text" name="my name" placeholder="Blue">
+    </div>
+
+
+
+
+
+</body>
+
+</html>
